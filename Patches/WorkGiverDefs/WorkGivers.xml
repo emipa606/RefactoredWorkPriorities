@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Remove feeding sick animals from doctors, given to handlers -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoctorFeedAnimals"]/workType</xpath>
+    <value>
+      <workType>Handling</workType>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoctorFeedAnimals"]/priorityInType</xpath>
+    <value>
+      <priorityInType>110</priorityInType>
+    </value>
+  </Operation>
+  <!-- Replace Repair giverClass -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "Repair"]/giverClass</xpath>
+    <value>
+      <giverClass>RWP.WorkGiver_RepairCustom</giverClass>
+    </value>
+  </Operation>
+  <!-- Prioritise roof removal over building roofs -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "RemoveRoofs"]/priorityInType</xpath>
+    <value>
+      <priorityInType>70</priorityInType>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "BuildRoofs"]/priorityInType</xpath>
+    <value>
+      <priorityInType>60</priorityInType>
+    </value>
+  </Operation>
+  <!-- Plant Cut only if the plant does not yield a harvestedThing -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "PlantsCut"]/giverClass</xpath>
+    <value>
+      <giverClass>RWP.WorkGiver_PlantsCut_IgnoreHarvestable</giverClass>
+    </value>
+  </Operation>
+</Patch>

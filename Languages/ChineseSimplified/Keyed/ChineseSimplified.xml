@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RWP_RepairThreshold_Label>&lt;b&gt;[ç»´ä¿®]&lt;/b&gt; ç»´ä¿®ä¸´ç•Œå€¼ï¼ˆç™¾åˆ†æ¯”ï¼‰: &lt;b&gt;&lt;color=orange&gt;{0}%&lt;/color&gt;&lt;/b&gt;</RWP_RepairThreshold_Label>
+  <RWP_RepairThreshold_Desc>è®¾å®šå±…æ°‘å¼€å§‹ç»´ä¿®æŸåç‰©å“çš„è€ä¹…åº¦ä¸´ç•Œå€¼ã€‚å±…æ°‘ä¸ä¼šç»´ä¿®è€ä¹…åº¦åœ¨è¿™ä¸ªç™¾åˆ†æ¯”ä¹‹ä¸Šçš„ç‰©å“ã€‚</RWP_RepairThreshold_Desc>
+  <RWP_PrioritizeRottable_Label>&lt;b&gt;[æ¬è¿å·¥]&lt;/b&gt; ä¼˜å…ˆæ¬è¿æ˜“è…çƒ‚çš„ç‰©å“</RWP_PrioritizeRottable_Label>
+  <RWP_PrioritizeRottable_Desc>æ¬è¿å·¥ä¼šä¼˜å…ˆæ¬è¿æ˜“è…çƒ‚çš„ç‰©å“ï¼ˆå¦‚çŽ‰ç±³ï¼Œé£Ÿç‰©ï¼Œç­‰ç­‰ï¼‰ç„¶åŽæ˜¯ä¸€èˆ¬ç‰©å“ã€‚</RWP_PrioritizeRottable_Desc>
+  <RWP_PrioritizeDeteriorating_Label>&lt;b&gt;[æ¬è¿å·¥]&lt;/b&gt; ä¼˜å…ˆæ¬è¿æ˜“è€åŒ–çš„ç‰©å“</RWP_PrioritizeDeteriorating_Label>
+  <RWP_PrioritizeDeteriorating_Desc>æ¬è¿å·¥ä¼šä¼˜å…ˆæ¬è¿æ˜“è€åŒ–çš„ç‰©å“ï¼ˆå¦‚æ­¦å™¨ï¼Œæœ¨å¤´ï¼Œç­‰ç­‰ï¼‰ç„¶åŽæ˜¯ä¸€èˆ¬ç‰©å“ã€‚</RWP_PrioritizeDeteriorating_Desc>
+  <RWP_DeterioratableMinHealthPercent_Label>&lt;b&gt;[Haul]&lt;/b&gt; Deterioratable HP threshold percentage: &lt;b&gt;&lt;color=orange&gt;{0}%&lt;/color&gt;&lt;/b&gt;</RWP_DeterioratableMinHealthPercent_Label>
+  <RWP_DeterioratableMinHealthPercent_Label_Desc>If "Prioritise hauling deterioratables" is enabled, skip items if their current health falls below this percentage.</RWP_DeterioratableMinHealthPercent_Label_Desc>
+  <Designator_ForcedRepair>Repair (Ignore Threshold)</Designator_ForcedRepair>
+  <Designator_ForcedRepairDesc>Instruct colonists to repair the designated buildings even if their HP is above the assigned Repair Threshold.</Designator_ForcedRepairDesc>
+</LanguageData>
