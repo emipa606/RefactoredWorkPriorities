@@ -10,5 +10,4 @@
   <RWP_DeterioratableMinHealthPercent_Label_Desc>If "Prioritise hauling deterioratables" is enabled, skip items if their current health falls below this percentage.</RWP_DeterioratableMinHealthPercent_Label_Desc>
   <Designator_ForcedRepair>Repair (Ignore Threshold)</Designator_ForcedRepair>
   <Designator_ForcedRepairDesc>Instruct colonists to repair the designated buildings even if their HP is above the assigned Repair Threshold.</Designator_ForcedRepairDesc>
-
 </LanguageData>

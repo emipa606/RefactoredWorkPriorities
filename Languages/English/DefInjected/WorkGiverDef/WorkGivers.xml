@@ -1,25 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Harvest for Growers: harvest plants with designation Harvest that spawn a harvestedThing -->
-
   <HarvestYieldingPlants.label>harvest plants which yield produce</HarvestYieldingPlants.label>
   <HarvestYieldingPlants.verb>harvest</HarvestYieldingPlants.verb>
   <HarvestYieldingPlants.gerund>harvesting</HarvestYieldingPlants.gerund>
-
-
   <!-- Haul rottable: priority below RearmTraps, above DoBillsCremate / HandMeThatBrick -->
-
   <HaulRottable.label>haul rottable items</HaulRottable.label>
   <HaulRottable.verb>haul</HaulRottable.verb>
   <HaulRottable.gerund>hauling</HaulRottable.gerund>
-
-
   <!-- Haul deterioratable: priority below HandMeThatBrick, above DoBillsCremate -->
-
   <HaulDeteriorating.label>haul deteriorating items</HaulDeteriorating.label>
   <HaulDeteriorating.verb>haul</HaulDeteriorating.verb>
   <HaulDeteriorating.gerund>hauling</HaulDeteriorating.gerund>
-
-
 </LanguageData>
