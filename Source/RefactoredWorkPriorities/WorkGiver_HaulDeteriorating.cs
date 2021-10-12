@@ -28,8 +28,9 @@ namespace RWP
         // Token: 0x0600001D RID: 29 RVA: 0x0000282B File Offset: 0x00000A2B
         public override IEnumerable<Thing> PotentialWorkThingsGlobal(Pawn pawn)
         {
-            return from t in pawn.Map.listerHaulables.ThingsPotentiallyNeedingHauling()
-                where t.GetStatValue(StatDefOf.DeteriorationRate) > 0f && t.Position.GetRoof(t.Map) == null
+            return from t in pawn.Map?.listerHaulables?.ThingsPotentiallyNeedingHauling()
+                where t.Map != null && t.GetStatValue(StatDefOf.DeteriorationRate) > 0f &&
+                      t.Position.GetRoof(t.Map) == null
                 select t;
         }
 

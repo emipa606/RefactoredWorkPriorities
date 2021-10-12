@@ -23,7 +23,7 @@ namespace RWP
             var tooltip2 = "RWP_PrioritizeDeteriorating_Desc".Translate();
             var text2 = "RWP_DeterioratableMinHealthPercent_Label".Translate(Settings.DeterioratableMinHealthPercent);
             var str2 = "RWP_DeterioratableMinHealthPercent_Label_Desc".Translate();
-            var listing_Standard = new Listing_Standard {ColumnWidth = inRect.width};
+            var listing_Standard = new Listing_Standard { ColumnWidth = inRect.width };
             listing_Standard.Begin(inRect);
             listing_Standard.Gap(20f);
             var rect = listing_Standard.GetRect(Text.LineHeight);

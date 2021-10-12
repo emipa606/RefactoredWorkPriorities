@@ -1,23 +1,14 @@
 # RefactoredWorkPriorities
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Dingos mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1230074511
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/RefactoredWorkPriorities]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 # http://steamcommunity.com/sharedfiles/filedetails/?id=774989162]Original mod by Dingo
@@ -34,7 +25,7 @@ ________________________________________________________________________________
 
 Grants you additional control over colonists, including some tweaks to their work priorities and schedules.
 
-The mod includes an options menu (Options &gt; Mod Settings).
+The mod includes an options menu (Options  Mod Settings).
 
 
 
@@ -66,7 +57,7 @@ The mod includes an options menu (Options &gt; Mod Settings).
 
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
