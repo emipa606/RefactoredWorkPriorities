@@ -3,7 +3,7 @@
   <!-- Repair designator keybinding -->
   <KeyBindingDef ParentName="ArchitectBase">
     <defName>DesignatorForcedRepair</defName>
-    <label>Repair &lt;b&gt;&lt;color=orange&gt;[Refactored Work Priorities]&lt;/color&gt;&lt;/b&gt;</label>
+    <label>Repair &lt;b&gt;&lt;color=orange&gt;(Refactored Work Priorities)&lt;/color&gt;&lt;/b&gt;</label>
     <category>Architect</category>
   </KeyBindingDef>
 </Defs>

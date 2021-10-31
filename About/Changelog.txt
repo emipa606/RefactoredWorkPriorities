@@ -1,5 +1,8 @@
 # Changelog for RefactoredWorkPriorities
 
+1.0.4.0 - Fixed the illegal characters in the labels
+
+
 1.0.3.0 - Hopefully fixed an error that prevented right-click in some cases
 
 
