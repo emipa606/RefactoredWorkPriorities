@@ -1,5 +1,8 @@
 # Changelog for RefactoredWorkPriorities
 
+1.0.5.0 - Added support for the sow-category added by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2069684319]Complex Jobs[/url]
+
+
 1.0.4.0 - Fixed the illegal characters in the labels
 
 

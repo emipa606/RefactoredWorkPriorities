@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Use complex jobs harvesting type if loaded -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/WorkTypeDef[defName="FSFHarvesting"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/WorkGiverDef[defName = "HarvestYieldingPlants"]/workType</xpath>
+      <value>
+        <workType>FSFHarvesting</workType>
+      </value>
+    </match>
+  </Operation>
+</Patch>
