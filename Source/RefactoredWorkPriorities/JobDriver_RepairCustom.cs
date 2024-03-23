@@ -8,7 +8,7 @@ public class JobDriver_RepairCustom : JobDriver_Repair
 {
     protected override IEnumerable<Toil> MakeNewToils()
     {
-        void NewAct()
+        AddFinishAction(delegate
         {
             var actor = GetActor();
             var curJob = actor.jobs.curJob;
@@ -16,9 +16,7 @@ public class JobDriver_RepairCustom : JobDriver_Repair
             {
                 actor.Map.designationManager.RemoveAllDesignationsOn(curJob.targetA.Thing);
             }
-        }
-
-        AddFinishAction(NewAct);
+        });
         foreach (var toil in base.MakeNewToils())
         {
             yield return toil;
