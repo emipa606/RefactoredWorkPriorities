@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <RWP_RepairThreshold_Label>&lt;b&gt;(Repair)&lt;/b&gt; Repair threshold percentage: &lt;b&gt;&lt;color=orange&gt;{0}%&lt;/color&gt;&lt;/b&gt;</RWP_RepairThreshold_Label>
+  <RWP_RepairThreshold_Label>&lt;b>(Repair)&lt;/b> Repair threshold percentage: &lt;b>&lt;color=orange>{0}%&lt;/color>&lt;/b></RWP_RepairThreshold_Label>
   <RWP_RepairThreshold_Desc>Determines the hit-points percentage for colonists to start repairing damaged things. Colonists will not repair things with HP above this percentage.</RWP_RepairThreshold_Desc>
-  <RWP_PrioritizeRottable_Label>&lt;b&gt;(Haul)&lt;/b&gt; Prioritise hauling rottables</RWP_PrioritizeRottable_Label>
+  <RWP_PrioritizeRottable_Label>&lt;b>(Haul)&lt;/b> Prioritise hauling rottables</RWP_PrioritizeRottable_Label>
   <RWP_PrioritizeRottable_Desc>Haulers will haul rottable items (corn, meals etc.) before generic things.</RWP_PrioritizeRottable_Desc>
-  <RWP_PrioritizeDeteriorating_Label>&lt;b&gt;(Haul)&lt;/b&gt; Prioritise hauling deterioratables</RWP_PrioritizeDeteriorating_Label>
+  <RWP_PrioritizeDeteriorating_Label>&lt;b>(Haul)&lt;/b> Prioritise hauling deterioratables</RWP_PrioritizeDeteriorating_Label>
   <RWP_CurrentModVersion_Label>Installed mod-version: {0}</RWP_CurrentModVersion_Label>
   <RWP_PrioritizeDeteriorating_Desc>Haulers will haul items which deteriorate over time (weapons, wood etc.) before generic things.</RWP_PrioritizeDeteriorating_Desc>
-  <RWP_DeterioratableMinHealthPercent_Label>&lt;b&gt;(Haul)&lt;/b&gt; Deterioratable HP threshold percentage: &lt;b&gt;&lt;color=orange&gt;{0}%&lt;/color&gt;&lt;/b&gt;</RWP_DeterioratableMinHealthPercent_Label>
+  <RWP_DeterioratableMinHealthPercent_Label>&lt;b>(Haul)&lt;/b> Deterioratable HP threshold percentage: &lt;b>&lt;color=orange>{0}%&lt;/color>&lt;/b></RWP_DeterioratableMinHealthPercent_Label>
   <RWP_DeterioratableMinHealthPercent_Label_Desc>If "Prioritise hauling deterioratables" is enabled, skip items if their current health falls below this percentage.</RWP_DeterioratableMinHealthPercent_Label_Desc>
   <Designator_ForcedRepair>Repair (Ignore Threshold)</Designator_ForcedRepair>
   <Designator_ForcedRepairDesc>Instruct colonists to repair the designated buildings even if their HP is above the assigned Repair Threshold.</Designator_ForcedRepairDesc>

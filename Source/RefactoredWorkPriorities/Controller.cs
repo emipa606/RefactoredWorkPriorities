@@ -25,10 +25,10 @@ public class Controller : Mod
         var tooltip2 = "RWP_PrioritizeDeteriorating_Desc".Translate();
         var text2 = "RWP_DeterioratableMinHealthPercent_Label".Translate(Settings.DeterioratableMinHealthPercent);
         var str2 = "RWP_DeterioratableMinHealthPercent_Label_Desc".Translate();
-        var listing_Standard = new Listing_Standard { ColumnWidth = inRect.width };
-        listing_Standard.Begin(inRect);
-        listing_Standard.Gap(20f);
-        var rect = listing_Standard.GetRect(Text.LineHeight);
+        var listingStandard = new Listing_Standard { ColumnWidth = inRect.width };
+        listingStandard.Begin(inRect);
+        listingStandard.Gap(20f);
+        var rect = listingStandard.GetRect(Text.LineHeight);
         var rect2 = rect.LeftHalf().Rounded();
         var rect3 = rect.RightHalf().Rounded();
         Widgets.Label(rect2, text);
@@ -53,12 +53,12 @@ public class Controller : Mod
             Settings.RepairThreshold++;
         }
 
-        listing_Standard.Gap(20f);
-        listing_Standard.CheckboxLabeled(label, ref Settings.PrioritizeRottable, tooltip);
-        listing_Standard.Gap(20f);
-        listing_Standard.CheckboxLabeled(label2, ref Settings.PrioritizeDeteriorating, tooltip2);
-        listing_Standard.Gap(20f);
-        var rect4 = listing_Standard.GetRect(Text.LineHeight);
+        listingStandard.Gap(20f);
+        listingStandard.CheckboxLabeled(label, ref Settings.PrioritizeRottable, tooltip);
+        listingStandard.Gap(20f);
+        listingStandard.CheckboxLabeled(label2, ref Settings.PrioritizeDeteriorating, tooltip2);
+        listingStandard.Gap(20f);
+        var rect4 = listingStandard.GetRect(Text.LineHeight);
         var rect5 = rect4.LeftHalf().Rounded();
         var rect6 = rect4.RightHalf().Rounded();
         Widgets.Label(rect5, text2);
@@ -85,13 +85,13 @@ public class Controller : Mod
 
         if (currentVersion != null)
         {
-            listing_Standard.Gap();
+            listingStandard.Gap();
             GUI.contentColor = Color.gray;
-            listing_Standard.Label("RWP_CurrentModVersion_Label".Translate(currentVersion));
+            listingStandard.Label("RWP_CurrentModVersion_Label".Translate(currentVersion));
             GUI.contentColor = Color.white;
         }
 
-        listing_Standard.End();
+        listingStandard.End();
     }
 
     public override string SettingsCategory()

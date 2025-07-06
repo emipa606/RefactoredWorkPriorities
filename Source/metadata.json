@@ -2,5 +2,17 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "0",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 13186,
+  "LinesOfXML": 4854,
+  "CodeBaseSize": 68,
+  "LastXmlCleaning": "2025-07-06T22:00:12.562154+02:00",
+  "SocialImageSet": true,
+  "SearchTags": [
+    "control",
+    " work priorities"
+  ]
 }

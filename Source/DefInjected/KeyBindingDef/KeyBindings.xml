@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- Repair designator keybinding -->
-  <DesignatorForcedRepair.label>Repair &lt;b&gt;&lt;color=orange&gt;[Refactored Work Priorities]&lt;/color&gt;&lt;/b&gt;</DesignatorForcedRepair.label>
+  <DesignatorForcedRepair.label>Repair &lt;b>&lt;color=orange>[Refactored Work Priorities]&lt;/color>&lt;/b></DesignatorForcedRepair.label>
 </LanguageData>

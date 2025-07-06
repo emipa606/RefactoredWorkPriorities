@@ -19,7 +19,7 @@ public class Designator_ForcedRepair : Designator
         hotKey = KeyBindingDef.Named("DesignatorForcedRepair");
     }
 
-    public override int DraggableDimensions => 2;
+    public override DrawStyleCategoryDef DrawStyleCategory => DrawStyleCategoryDefOf.Orders;
 
     public override AcceptanceReport CanDesignateCell(IntVec3 c)
     {
