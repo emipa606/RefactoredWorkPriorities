@@ -33,8 +33,16 @@ public class Designator_ForcedRepair : Designator
 
     public override void DesignateSingleCell(IntVec3 loc)
     {
-        foreach (var t in Map.thingGrid.ThingsAt(loc))
+        var things = Map.thingGrid.ThingsAt(loc)?.ToArray();
+        if (things == null)
         {
+            return;
+        }
+
+        // ReSharper disable once ForCanBeConvertedToForeach
+        for (var i = 0; i < things.Length; i++)
+        {
+            var t = things[i];
             if (CanDesignateThing(t).Accepted)
             {
                 DesignateThing(t);

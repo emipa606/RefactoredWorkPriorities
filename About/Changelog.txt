@@ -1,5 +1,8 @@
 # Changelog for RefactoredWorkPriorities
 
+1.6.1 - Added some workaround for PUAH, noticed no errors when testing.
+
+
 1.6.0 - Mod updated for 1.6 and passed autotests
 
 
