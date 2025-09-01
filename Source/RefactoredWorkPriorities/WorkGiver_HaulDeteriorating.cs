@@ -22,7 +22,7 @@ public class WorkGiver_HaulDeteriorating : WorkGiver_HaulGeneral
 
     public override IEnumerable<Thing> PotentialWorkThingsGlobal(Pawn pawn)
     {
-        return from t in pawn.Map?.listerHaulables?.ThingsPotentiallyNeedingHauling()
+        return from t in pawn.Map?.listerHaulables?.ThingsPotentiallyNeedingHauling().ToArray() ?? Array.Empty<Thing>()
             where t.Map != null && t.GetStatValue(StatDefOf.DeteriorationRate) > 0f &&
                   t.Position.GetRoof(t.Map) == null
             select t;
