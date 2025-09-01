@@ -1,5 +1,8 @@
 # Changelog for RefactoredWorkPriorities
 
+1.6.2 - Updated code for PUAH compatibility, thanks ZzZombo
+
+
 1.6.1 - Added some workaround for PUAH, noticed no errors when testing.
 
 
