@@ -6,10 +6,10 @@
   "Patches": true,
   "Defs": true,
   "Assemblies": true,
-  "LinesOfCode": 13425,
+  "LinesOfCode": 13452,
   "LinesOfXML": 4854,
   "CodeBaseSize": 67,
-  "LastXmlCleaning": "2025-09-01T21:33:19.2510049+02:00",
+  "LastXmlCleaning": "2025-09-01T21:37:22.0123281+02:00",
   "SocialImageSet": true,
   "SearchTags": [
     "control",
