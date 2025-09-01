@@ -16,7 +16,7 @@ public class WorkGiver_HaulRottable : WorkGiver_HaulGeneral
 
     public override IEnumerable<Thing> PotentialWorkThingsGlobal(Pawn pawn)
     {
-        return from t in pawn.Map.listerHaulables.ThingsPotentiallyNeedingHauling()
+        return from t in pawn.Map.listerHaulables.ThingsPotentiallyNeedingHauling().ToArray()
             where t.def.comps.Exists(tc => tc.compClass == typeof(CompRottable))
             select t;
     }
