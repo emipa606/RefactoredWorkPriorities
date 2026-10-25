@@ -1,13 +1,13 @@
 # [Refactored Work Priorities (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2096359885)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Dingos mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1230074511
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 # [Original mod by Dingo](http://steamcommunity.com/sharedfiles/filedetails/?id=774989162)
 [Ludeon](https://ludeon.com/forums/index.php?topic=26077.msg384802#msg384802)
@@ -18,7 +18,7 @@ ________________________________________________________________________________
 
 **[Forums thread with source code and direct downloads](https://ludeon.com/forums/index.php?topic=26077.0)**
 
-![Image](https://i.imgur.com/784MtpI.png)
+![Image](https://img.litet.net/784MtpI.png)
 
 Grants you additional control over colonists, including some tweaks to their work priorities and schedules.
 
@@ -36,7 +36,7 @@ The mod includes an options menu (Options  Mod Settings).
 
 
 
-![Image](https://i.imgur.com/5x6icWm.png)
+![Image](https://img.litet.net/5x6icWm.png)
 
 # 
 
@@ -54,7 +54,7 @@ The mod includes an options menu (Options  Mod Settings).
 
 
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
@@ -68,4 +68,4 @@ The mod includes an options menu (Options  Mod Settings).
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/RefactoredWorkPriorities?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2096359885) | tags: control,  work priorities
+[![Image](https://img.shields.io/github/v/release/emipa606/RefactoredWorkPriorities?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2096359885) | control, work priorities

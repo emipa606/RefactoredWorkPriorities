@@ -21,19 +21,19 @@ public class Designator_ForcedRepair : Designator
 
     public override DrawStyleCategoryDef DrawStyleCategory => DrawStyleCategoryDefOf.Orders;
 
-    public override AcceptanceReport CanDesignateCell(IntVec3 c)
+    public override AcceptanceReport CanDesignateCell(IntVec3 loc)
     {
-        if (!c.InBounds(Map))
+        if (!loc.InBounds(Map))
         {
             return false;
         }
 
-        return !c.Fogged(Map) && Map.thingGrid.ThingsAt(c).Any(t => CanDesignateThing(t).Accepted);
+        return !loc.Fogged(Map) && Map.thingGrid.ThingsAt(loc).Any(t => CanDesignateThing(t).Accepted);
     }
 
-    public override void DesignateSingleCell(IntVec3 loc)
+    public override void DesignateSingleCell(IntVec3 c)
     {
-        var things = Map.thingGrid.ThingsAt(loc)?.ToArray();
+        var things = Map.thingGrid.ThingsAt(c)?.ToArray();
         if (things == null)
         {
             return;

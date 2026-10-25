@@ -14,9 +14,9 @@ public class WorkGiver_RepairCustom : WorkGiver_Repair
 
         if (pawn.Map.designationManager.DesignationOn(t, Settings.DefOf_RWP_ForcedRepair) != null)
         {
-            return base.HasJobOnThing(pawn, t);
+            return base.HasJobOnThing(pawn, t, forced);
         }
 
-        return 100f * t.HitPoints / t.MaxHitPoints <= Settings.RepairThreshold && base.HasJobOnThing(pawn, t);
+        return 100f * t.HitPoints / t.MaxHitPoints <= Settings.RepairThreshold && base.HasJobOnThing(pawn, t, forced);
     }
 }

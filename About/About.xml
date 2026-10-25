@@ -11,27 +11,28 @@
     <li>1.4</li>
     <li>1.5</li>
     <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+  <description>[img]https://img.litet.net/logos/Info.png[/img]
 Update of Dingos mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1230074511
 
-[img]https://i.imgur.com/pufA0kM.png[/img]
+[img]https://img.litet.net/logos/Notice.png[/img]
 
 [table]
 	[tr]
-		[td][url=https://discord.gg/h5TY6DA][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-		[td][url=https://github.com/emipa606/RefactoredWorkPriorities][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+		[td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/RefactoredWorkPriorities][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
     [/tr]
     [tr]
-        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
-        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToRemove.png[/img][/td]
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[img]https://img.litet.net/logos/OriginalDescription.png[/img]
 
 [h1][url=http://steamcommunity.com/sharedfiles/filedetails/?id=774989162]Original mod by Dingo[/url]
 [url=https://ludeon.com/forums/index.php?topic=26077.msg384802#msg384802]Ludeon[/url]
@@ -41,7 +42,7 @@ ________________________________________________________________________________
 
 [b][url=https://ludeon.com/forums/index.php?topic=26077.0]Forums thread with source code and direct downloads[/url][/b]
 
-[img]https://i.imgur.com/784MtpI.png[/img]
+[img]https://img.litet.net/784MtpI.png[/img]
 
 Grants you additional control over colonists, including some tweaks to their work priorities and schedules.
 
@@ -57,7 +58,7 @@ The mod includes an options menu (Options  Mod Settings).
 [*][b]Set an item HP threshold[/b] to avoid prioritising items with low HP.
 [/list]
 
-[img]https://i.imgur.com/5x6icWm.png[/img]
+[img]https://img.litet.net/5x6icWm.png[/img]
 [h1]
 [list]
 [*][url=https://ludeon.com/forums/index.php?action=profile;u=36313][b]Marnador[/b][/url] - [url=https://ludeon.com/forums/index.php?topic=11022.0]RimWorld Font[/url]
@@ -71,7 +72,7 @@ The mod includes an options menu (Options  Mod Settings).
 [/h1]
 
 
-[img]https://i.imgur.com/PwoNOj4.png[/img]
+[img]https://img.litet.net/logos/ReportingIssues.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -82,6 +83,6 @@ The mod includes an options menu (Options  Mod Settings).
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2096359885][img]https://img.shields.io/github/v/release/emipa606/RefactoredWorkPriorities?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: control,  work priorities</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.4</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2096359885][img]https://img.shields.io/github/v/release/emipa606/RefactoredWorkPriorities?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | control, work priorities</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.7.0</modVersion>
 </ModMetaData>

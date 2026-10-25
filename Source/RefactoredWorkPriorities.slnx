@@ -6,4 +6,31 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="RefactoredWorkPriorities/RefactoredWorkPriorities.csproj" />
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/Patches/Modsupport/">
+    <File Path="../Patches/Modsupport/ComplexJobs.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/KeyBindings/">
+    <File Path="../Defs/KeyBindings/KeyBindings.xml" />
+  </Folder>
+  <Folder Name="/XML/Patches/Designations/">
+    <File Path="../Patches/Designations/DesignationCategories.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/WorkGiverDefs/">
+    <File Path="../Defs/WorkGiverDefs/WorkGivers.xml" />
+  </Folder>
+  <Folder Name="/XML/Patches/JobDefs/">
+    <File Path="../Patches/JobDefs/Jobs_Work.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/English.xml" />
+  </Folder>
+  <Folder Name="/XML/Patches/WorkGiverDefs/">
+    <File Path="../Patches/WorkGiverDefs/WorkGivers.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/Designations/">
+    <File Path="../Defs/Designations/Designations.xml" />
+  </Folder>
 </Solution>

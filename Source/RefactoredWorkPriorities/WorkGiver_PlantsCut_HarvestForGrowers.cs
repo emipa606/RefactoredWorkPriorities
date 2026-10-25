@@ -13,12 +13,10 @@ public class WorkGiver_PlantsCut_HarvestForGrowers : WorkGiver_PlantsCut
         for (var i = 0; i < allDesignations.Count; i = num + 1)
         {
             var designation = allDesignations[i];
-            if (designation.def == DesignationDefOf.HarvestPlant)
+            if (designation.def == DesignationDefOf.HarvestPlant && designation.target.Thing is Plant plant &&
+                plant.def.plant.harvestedThingDef != null)
             {
-                if (designation.target.Thing is Plant plant && plant.def.plant.harvestedThingDef != null)
-                {
-                    yield return designation.target.Thing;
-                }
+                yield return designation.target.Thing;
             }
 
             num = i;
